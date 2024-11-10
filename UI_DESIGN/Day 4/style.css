@@ -1,0 +1,43 @@
+.container{
+    height:100%;
+    display:flex;
+    flex-direction:row;
+     justify-content:center;
+     align-items: center;
+     background-color: rgb(53, 50, 50);
+    }    .box{
+    width:200px;
+    height:200px;
+    /*background-color:palevioletred;*/
+    background: linear-gradient(120deg,#ff000f,#fcc000);
+    border-radius: 50;
+    box-shadow: 10px 20px 10px 20px #00c5fc;
+    transition: 2s;
+    animation-duration: 1s;
+    animation-name: anim;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}/* .box:hover{
+    transform: rotate(120deg);
+}*/
+  @keyframes anim{
+    0%{
+        transform: rotate(0deg)scale(1);
+    }
+    50%{
+        transform: rotate(180deg)scale(1.4);
+    }
+    100%{
+        transform: rotate(360deg)scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+

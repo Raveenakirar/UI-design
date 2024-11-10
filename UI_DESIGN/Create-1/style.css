@@ -1,0 +1,33 @@
+.container{
+    height: 80%;
+    width: 80%;
+    display : flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: whitesmoke;
+  } 
+  .box{
+   size: 50%;
+    height:10%;
+    width: 100%;
+    font-size: 34px; 
+    margin-bottom: 46%;
+    box-shadow:  0px 10px 10px rgb(182, 178, 178); 
+  
+  }
+  .innerbox{
+    padding: 30px 40%;
+    margin-top:5px;
+    margin-left:10px ;
+    
+  }
+   .mask{
+    margin-bottom:46%;
+    height: 12%;
+    width: 50%;
+    box-shadow:0px 20px 30px rgb(182, 178, 178);
+    border-radius: 60%;
+   } 
